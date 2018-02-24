@@ -1,0 +1,15 @@
+﻿ip=192.168.1.100;
+portno=14399; 
+camIndex=0; //外部调用的摄像头编号
+//选择动作右手
+HandRightDRate_x=0.7;//选择动作，相对屏幕的宽度中间比率，宽度基准
+HandRightMRate_x=3;//宽度,超过上面的宽度基准后的加成倍数
+HandRightAddNum_x=0;//宽度上的偏移增加值
+HandRightDRate_y=0.25;//选择动作，相对屏幕的高度中间比率，高度基准
+HandRightMRate_y=3;//高度,超过上面的高度基准后的加成倍数
+HandRightAddNum_y=0;//高度上的偏移增加值
+offsetX=0;//鼠标X偏移
+offsetY=0;//鼠标Y偏移
+scaleX=1;//针对两台电脑的分辨率不同
+scaleY=1;//针对两台电脑的分辨率不同
+OnlyDebug=0;// 1为调试模式，不连接另一台电脑
